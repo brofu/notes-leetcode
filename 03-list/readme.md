@@ -1,5 +1,9 @@
 # Key Skills About List
 
 * **Double Pointer**
-Example: https://github.com/brofu/leetcode/blob/main/list/list.go#L20
+    * Use double or multiple pointers to loop the list
+    * examples
+        * 21 Merge Two Sorted Lists
+        * 86 Partition List
+            * Avoid pointer cycle
  
