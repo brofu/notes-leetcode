@@ -1,0 +1,348 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>List · Brofu's Talk</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../04-interview/readme.html" />
+    
+    
+    <link rel="prev" href="../02-array/readme.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../01-overall_idea/readme.html">
+            
+                <a href="../01-overall_idea/readme.html">
+            
+                    
+                    Overall Idea
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../02-array/readme.html">
+            
+                <a href="../02-array/readme.html">
+            
+                    
+                    Array
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="readme.html">
+            
+                <a href="readme.html">
+            
+                    
+                    List
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../04-interview/readme.html">
+            
+                <a href="../04-interview/readme.html">
+            
+                    
+                    Interview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../05-src/readme.html">
+            
+                <a href="../05-src/readme.html">
+            
+                    
+                    Src
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >List</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="key-skills-about-list">Key Skills About List</h1>
+<ul>
+<li><strong>Double Pointer</strong><ul>
+<li>Use double or multiple pointers to loop the list<ul>
+<li>Examples<ul>
+<li>21 Merge Two Sorted Lists<ul>
+<li><ol>
+<li>Merge k Sorted Lists<ul>
+<li>Similar operation to problem 21, for the list part</li>
+<li>Use priority queue (based on binary heap) to sort the K numbers</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>86 Partition List<ul>
+<li>Avoid pointer cycle</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Use double or multiple pointers to get the location of a list, one fast, one slow<ul>
+<li>For the close-following pointer, can consider <code>x.Next.Next</code></li>
+<li>When the list node number is large, no necessary to insist 1 loop</li>
+<li>if there is cycle in the list</li>
+<li>Examples<ul>
+<li>19 Remove Nth Node from End of List</li>
+<li>876 Middle of the Linked List<ul>
+<li>2095 Delete the Middle Node of a Linked List</li>
+</ul>
+</li>
+<li>142 Linked List Cycle II <ul>
+<li>map or special idea</li>
+</ul>
+</li>
+<li>160 Intersection of Two Linked Lists<ul>
+<li>4 pointers. 2 faster, 2 slower</li>
+<li>or use index</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Reference</strong></p>
+<ol>
+<li><a href="https://labuladong.github.io/algo/di-ling-zh-bfe1b/shuang-zhi-0f7cc/" target="_blank">https://labuladong.github.io/algo/di-ling-zh-bfe1b/shuang-zhi-0f7cc/</a></li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../02-array/readme.html" class="navigation navigation-prev " aria-label="Previous page: Array">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../04-interview/readme.html" class="navigation navigation-next " aria-label="Next page: Interview">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"List","level":"1.4","depth":1,"next":{"title":"Interview","level":"1.5","depth":1,"path":"04-interview/readme.md","ref":"04-interview/readme.md","articles":[]},"previous":{"title":"Array","level":"1.3","depth":1,"path":"02-array/readme.md","ref":"02-array/readme.md","articles":[]},"dir":"ltr"},"config":{"plugins":["plantuml-cloud"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"plantuml-cloud":{"umlPath":"images/uml","protocol":"http","type":"plantuml-server","host":"www.plantuml.com","port":"80","path":"/plantuml/svg"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"sortedBy":"-","variables":{},"title":"Brofu's Talk","gitbook":"*"},"file":{"path":"03-list/readme.md","mtime":"2023-10-17T05:00:17.978Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-10-17T05:01:10.303Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
